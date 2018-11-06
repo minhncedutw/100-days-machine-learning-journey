@@ -15,6 +15,5 @@ Each day i study a little about machine-learning/deep-learning and share what i 
 # Journey tracking
 
 ## Day 1 - 2018/11/06: What is QUANTUM MACHINE LEARNING?
-
-
+> QUANTUM COMPUTING allows for calculation speed millions of times faster than current binary technology. So current Machine Learning algorithm can be computed in a fraction of the time it takes now. Therefore, with Quantum Computing, we can build much LARGER and COPLEX algorithm/neural-networks and compute them in the same amount of time current algorithms take place.
 
