@@ -22,9 +22,9 @@ Each day i study a little about machine-learning/deep-learning and share what i 
 **How to combine ML and QC?**
 
 There are 4 approaches:
-        - 
-        - 
-        - 
-        - 
+    - CC:
+    - CQ:
+    - QC:
+    - QQ:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Qml_approaches.tif/lossless-page1-296px-Qml_approaches.tif.png)
