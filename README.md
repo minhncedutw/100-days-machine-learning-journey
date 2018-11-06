@@ -19,6 +19,8 @@ Each day i study a little about machine-learning/deep-learning and share what i 
 
 **Quantum Machine Learning(QML):** is attemptions to recast Machine Learning problems in the form of quantum algorithm to be run on quantum computers. 
 
+![](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning/raw/master/Quantum%20Machine%20complete%20Architecture.png)
+
 **How to combine ML and QC?**
 
 There are 4 approaches:
