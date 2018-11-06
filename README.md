@@ -31,4 +31,11 @@ There are 4 approaches:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Qml_approaches.tif/lossless-page1-296px-Qml_approaches.tif.png)
 
+**How to program QML?**
+- Firstly, we have to have Quantum simulator.
+- Create quantum algorithm then run on simulator.
+
+**What is QML programming languague?** 
+Cirq - a software toolkit that lets developers create algorithms without needing a background in quantum physics - initiated by Google.
+
 **Great source for read?** [Awesome Quantum Machine Learning](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning#introduction-why-quantum-machine-learning)
