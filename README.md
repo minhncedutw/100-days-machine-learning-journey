@@ -30,3 +30,5 @@ There are 4 approaches:
     - QQ:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Qml_approaches.tif/lossless-page1-296px-Qml_approaches.tif.png)
+
+**Great source for read?** https://github.com/krishnakumarsekar/awesome-quantum-machine-learning#introduction-why-quantum-machine-learning
