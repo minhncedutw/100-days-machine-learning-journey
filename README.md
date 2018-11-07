@@ -39,3 +39,16 @@ There are 4 approaches:
 Cirq - a software toolkit that lets developers create algorithms without needing a background in quantum physics - initiated by Google.
 
 **Great source for read?** [Awesome Quantum Machine Learning](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning#introduction-why-quantum-machine-learning)
+
+## Day 2 - 2018/11/07: What is META LEARNING in Machine Learning?
+> Traditional paradigm in ML need huge dataset to train model for specific task. Obviously, it is very far from how human leverages past experiences to learn very quickly new task from only a handset of examples. It is because human **_learns to learn_**.
+
+**WHAT is Meta Learning?** This is no specific/standard definition for Meta Learning yet. In short, Meta Learning is to learn the learning process(or how to quickly learn some tasks from a tiny set of examples). 
+
+**HOW to do Meta Learning?** 
+There are some approaches:
+    - recurrent models
+    - meta-optimization
+    - metric learning
+
+![](https://cdn-images-1.medium.com/max/1000/1*AcaPiikZErVv_iFJzWekQg.gif)
