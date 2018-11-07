@@ -46,9 +46,16 @@ Cirq - a software toolkit that lets developers create algorithms without needing
 **WHAT is Meta Learning?** This is no specific/standard definition for Meta Learning yet. In short, Meta Learning is to learn the learning process(or how to quickly learn some tasks from a tiny set of examples). 
 
 **HOW to do Meta Learning?** 
+
 There are some approaches:
     - recurrent models
     - meta-optimization
     - metric learning
 
+Below is how we learn meta-parameters
 ![](https://cdn-images-1.medium.com/max/1000/1*AcaPiikZErVv_iFJzWekQg.gif)
+
+**Greate source for read?** [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)(this source is meta-optimization approach and included pytorch code)
+
+Another method meta-learning here: [RL — Meta-Learning](https://medium.com/@jonathan_hui/meta-learning-how-we-address-the-shortcomings-of-our-deep-networks-a008aa4b5b2b)
+
