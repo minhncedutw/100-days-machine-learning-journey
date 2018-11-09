@@ -88,3 +88,16 @@ Another method meta-learning here: [RL — Meta-Learning](https://medium.com
 **P/S:** I believe a combination of neuroevolution and gradient descent methods will lead to a significant improvement in RL performance. One downside of neuroevolution is the massive amounts of compute power that are required in order to train these systems, which might limit the democratisation of these techniques.
 
 **Good source for READ?** [Welcoming the Era of Deep Neuroevolution](https://eng.uber.com/deep-neuroevolution/)
+
+## Day 4 - 2018/11/09: What is REINFORCEMENT LEARNING in Machine Learning?
+
+**WHAT is Reinforcement Learning?** Reinforcement learning is an important type of Machine Learning where an agent learn how to behave in a environment by performing actions and seeing the results.
+
+**HOW MANY kinds of Reinforcement Learning approaches?** 
+There are 3 main kinds:
+    - Value-based: In value-based RL, the goal is to optimize the value function V(s). The value function is a function that tells us the maximum expected future reward the agent will get at each state.
+    - Policy-based: In policy-based RL, we want to directly optimize the policy function π(s) without using a value function.
+        There are 2 types of policy:
+        + Deterministic: a policy at a given state will always return the same action.
+        + Stochastic: output a distribution probability over actions.
+    - Model-based: In model-based RL, we model the environment. This means we create a model of the behavior of the environment.
