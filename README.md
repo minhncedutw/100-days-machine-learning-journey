@@ -6,11 +6,15 @@ Each day i study a little about machine-learning/deep-learning and share what i 
     - Classification
     - Regression
     - Differentiation
+    - Graph CNN
 1. RNN
 1. Reinforcement Learning
 1. Meta learning
 1. Quantum Machine Learning
+1. NeuroEvolution
 1. Decentralize Data
+1. Others
+    Clustering
 
 # Journey tracking
 
