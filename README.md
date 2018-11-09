@@ -95,6 +95,7 @@ Another method meta-learning here: [RL — Meta-Learning](https://medium.com
 
 **HOW MANY kinds of Reinforcement Learning approaches?** 
 There are 3 main kinds:
+
     1. Value-based: In value-based RL, the goal is to optimize the value function V(s). The value function is a function that tells us the maximum expected future reward the agent will get at each state.
     
     2. Policy-based: In policy-based RL, we want to directly optimize the policy function π(s) without using a value function.
