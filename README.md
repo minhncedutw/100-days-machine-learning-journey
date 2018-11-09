@@ -86,3 +86,5 @@ Another method meta-learning here: [RL — Meta-Learning](https://medium.com
 > The researchers at OpenAI and Uber are able to show that the 'gradient approximation' of evolution strategies leads to satisfying (but not necessarily new state-of-the-art) solutions in supervised learning scenario's. On the other hand they are able to show high performance of their methods in reinforcement learning scenario's (comparable to state-of-the-art in some domains).
 
 **P/S:** I believe a combination of neuroevolution and gradient descent methods will lead to a significant improvement in RL performance. One downside of neuroevolution is the massive amounts of compute power that are required in order to train these systems, which might limit the democratisation of these techniques.
+
+**Good source for READ?** [Welcoming the Era of Deep Neuroevolution](https://eng.uber.com/deep-neuroevolution/)
