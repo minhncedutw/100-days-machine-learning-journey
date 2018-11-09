@@ -59,3 +59,26 @@ Below is how we learn meta-parameters
 
 Another method meta-learning here: [RL — Meta-Learning](https://medium.com/@jonathan_hui/meta-learning-how-we-address-the-shortcomings-of-our-deep-networks-a008aa4b5b2b)
 
+## Day 3 - 2018/11/08: What is NEUROEVOLUTION in Machine Learning?
+> Traditional artificial neural networks use gradient descend for backpropagation to optimize the network parameters. This method may need a lot of epochs to reach optimized solution. In some case, if we select not good hyper-parameters(such as too big learning rate), the result is not converged. Or sometimes, the result gets stucked at local optimum. Is there anyway better way to explore optimum solution? That's why you should try NEUROEVOLUTION.
+
+**WHAT is NEUROEVOLUTION?** Neuroevolution is the way to utilizes genetic algorithms to develop artificial neural networks.
+
+**HOW to do it it?**
+
+When you are doing genetic optimisation in the context of DNN optimisation, you start from an initial **_population_** of models. Typically, a model is randomly initialised, and several **_offspring_** are derived based on this initial model. In the case of DNN’s, you initialise a model (as you normally do), and you add small random vectors, sampled from a simple Gaussian distribution, to the parameters. This results in a cloud of models, which all reside somewhere on the optimisation surface. Note that this is the first important distinction with gradient descent. You start (and continue to work) with a population of models, instead of a single (point) model.
+
+Starting from this original population, the **_genetic optimisation cycles_** start.
+![](https://cdn-images-1.medium.com/max/800/1*KQIGKIZOKJudEf9x_sW5Kw.png)
+
+First, a fitness evaluation is performed. Fitness evaluation corresponds with checking where the models are in the optimisation surface and determining which of the models perform best (e.g. are the most fit).
+
+Next, a **_selection_** is performed based on the fitness evaluation. In evolution strategies, the (pseudo) offspring is reduced to a single model, weighted by the fitness evaluation. For DNN's the fitness is defined as the loss or the reward. 
+
+Next, **_reproduction and combination_** is performed. Based on the newly selected 'prime' model, a new set of offspring is derived.
+
+Typically, in genetic optimisation, **_mutation_** is also performed in order to improve the variety of the offspring. One example of mutation is to change how the different offspring is created (i.e. different noise levels for the different parameters).
+
+> The researchers at OpenAI and Uber are able to show that the 'gradient approximation' of evolution strategies leads to satisfying (but not necessarily new state-of-the-art) solutions in supervised learning scenario's. On the other hand they are able to show high performance of their methods in reinforcement learning scenario's (comparable to state-of-the-art in some domains).
+
+**P/S:** I believe a combination of neuroevolution and gradient descent methods will lead to a significant improvement in RL performance. One downside of neuroevolution is the massive amounts of compute power that are required in order to train these systems, which might limit the democratisation of these techniques.
