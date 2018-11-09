@@ -91,16 +91,43 @@ Another method meta-learning here: [RL — Meta-Learning](https://medium.com
 
 ## Day 4 - 2018/11/09: What is REINFORCEMENT LEARNING in Machine Learning?
 
+![](https://cdn-images-1.medium.com/max/800/1*c3pEt4pFk0Mx684DDVsW-w.png)
+
 **WHAT is Reinforcement Learning?** Reinforcement learning is an important type of Machine Learning where an agent learn how to behave in a environment by performing actions and seeing the results.
+
+**What is Reinforcement Learning PROCESS?** 
+[](https://cdn-images-1.medium.com/max/1000/1*aKYFRoEmmKkybqJOvLt2JQ.png)
+The Reinforcement Learning (RL) process can be modeled as a loop that works like this:
+1. Our Agent receives state S0 from the Environment (In our case we receive the first frame of our game (state) from Super Mario Bros (environment))
+1. Based on that state S0, agent takes an action A0 (our agent will move right)
+1. Environment transitions to a new state S1 (new frame)
+1. Environment gives some reward R1 to the agent (not dead: +1)
+
+This RL loop outputs a sequence of state, action and reward.
+
+The goal of the agent is to maximize the expected cumulative reward.
 
 **HOW MANY kinds of Reinforcement Learning approaches?** 
 There are 3 main kinds:
 1. Value-based: In value-based RL, the goal is to optimize the value function V(s). The value function is a function that tells us the maximum expected future reward the agent will get at each state.
 2. Policy-based: In policy-based RL, we want to directly optimize the policy function π(s) without using a value function.
-    
     There are 2 types of policy:
-    
     - Deterministic: a policy at a given state will always return the same action.
     - Stochastic: output a distribution probability over actions.
-       
 3. Model-based: In model-based RL, we model the environment. This means we create a model of the behavior of the environment.
+
+**What is DEEP REINFORCEMENT LEARNING?** Deep Reinforcement Learning introduces deep neural networks to solve Reinforcement Learning problems — hence the name “deep.”
+
+**LIST some Deep Reinforcement Learning methods:**
+- Deep Q Network (DQN)
+- State-Action-Reward-State-Action (SARSA)
+- Deep Deterministic Policy Gradient (DDPG)
+- NAF, A3C, ...
+...
+- Rainbow
+
+**_More reference at:_** 
+[Introduction to Various Reinforcement Learning Algorithms. Part I (Q-Learning, SARSA, DQN, DDPG)](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287)
+[Deep Reinforcement Learning Series](https://medium.com/@jonathan_hui/rl-deep-reinforcement-learning-series-833319a95530)
+
+**Good source for READ?** [An introduction to Reinforcement Learning](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419)
