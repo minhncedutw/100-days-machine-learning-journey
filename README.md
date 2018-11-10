@@ -133,3 +133,15 @@ There are 3 main kinds:
 [Deep Reinforcement Learning Series](https://medium.com/@jonathan_hui/rl-deep-reinforcement-learning-series-833319a95530)
 
 **Good source for READ?** [An introduction to Reinforcement Learning](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419)
+
+## 2018/11/10-11 is weekend => Rest => No update learning
+
+## Day 5 - 2018/11/12: XXX
+
+## 2018/11/17-18 is weekend => Rest => No update learning
+
+
+## 2018/11/24-25 is weekend => Rest => No update learning
+
+
+## 2018/12/01-02 is weekend => Rest => No update learning
