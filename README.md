@@ -3,7 +3,7 @@ Each day i study a little about machine-learning/deep-learning and share what i 
 
 # Journey Plan:
 1. CNN
-    - Classification
+    - Classification: 2D, 3D
     - Regression
     - Differentiation
     - Graph CNN
@@ -18,130 +18,20 @@ Each day i study a little about machine-learning/deep-learning and share what i 
 
 # Journey tracking
 
-## Day 1 - 2018/11/06: What is QUANTUM MACHINE LEARNING?
-> QUANTUM COMPUTING(QC) allows for calculation speed millions of times faster than current binary technology. So with Quantum Computing, current Machine Learning algorithm can be computed in a fraction of the time it takes now. Therefore, we can build much LARGER and COPLEX algorithm/neural-networks and compute them in the same amount of time current algorithms take place.
+## Day 1 - 2018/11/06: Point Cloud Classification-Segmentation algorithms
 
-**Quantum Machine Learning(QML):** is attemptions to recast Machine Learning problems in the form of quantum algorithm to be run on quantum computers. 
+> A point cloud is a set of data points in space. 
+Point clouds are generally produced by 3D scanners: LIDAR, Kinect, ...
 
-![](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning/raw/master/Quantum%20Machine%20complete%20Architecture.png)
+**Approach Classification**
+1. Pixel-based: Multi-view CNN(MVCNN)
+2. Voxel-based: VoxNet, VRN Ensemble, ...
+3. 3D point-based: PointNet
 
-**How to combine ML and QC?**
+**Great article**
 
-There are 4 approaches:
-    - CC:
-    - CQ:
-    - QC:
-    - QQ:
+[3D POINT CLOUD CLASSIFICATION USING DEEP LEARNING – RECENT WORKS - 20Sep2017](http://www.itzikbs.com/3d-point-cloud-classification-using-deep-learning)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Qml_approaches.tif/lossless-page1-296px-Qml_approaches.tif.png)
-
-**How to program QML?**
-- Firstly, we have to have Quantum simulator.
-- Create quantum algorithm then run on simulator.
-
-**What is QML programming languague?** 
-Cirq - a software toolkit that lets developers create algorithms without needing a background in quantum physics - initiated by Google.
-
-**Great source for read?** [Awesome Quantum Machine Learning](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning#introduction-why-quantum-machine-learning)
-
-## Day 2 - 2018/11/07: What is META LEARNING in Machine Learning?
-> Traditional paradigm in ML need huge dataset to train model for specific task. Obviously, it is very far from how human leverages past experiences to learn very quickly new task from only a handset of examples. It is because human **_learns to learn_**.
-
-**WHAT is Meta Learning?** This is no specific/standard definition for Meta Learning yet. In short, Meta Learning is to learn the learning process(or how to quickly learn some tasks from a tiny set of examples). 
-
-**HOW to do Meta Learning?** 
-
-There are some approaches:
-    - recurrent models
-    - meta-optimization
-    - metric learning
-
-Below is how we learn meta-parameters
-![](https://cdn-images-1.medium.com/max/1000/1*AcaPiikZErVv_iFJzWekQg.gif)
-
-**Greate source for read?** [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)(this source is meta-optimization approach and included pytorch code)
-
-Another method meta-learning here: [RL — Meta-Learning](https://medium.com/@jonathan_hui/meta-learning-how-we-address-the-shortcomings-of-our-deep-networks-a008aa4b5b2b)
-
-## Day 3 - 2018/11/08: What is NEUROEVOLUTION in Machine Learning?
-> Traditional artificial neural networks use gradient descend for backpropagation to optimize the network parameters. This method may need a lot of epochs to reach optimized solution. In some case, if we select not good hyper-parameters(such as too big learning rate), the result is not converged. Or sometimes, the result gets stucked at local optimum. Is there anyway better way to explore optimum solution? That's why you should try NEUROEVOLUTION.
-
-**WHAT is NEUROEVOLUTION?** Neuroevolution is the way to utilizes genetic algorithms to develop artificial neural networks.
-
-**HOW to do it it?**
-
-1. When you are doing genetic optimisation in the context of DNN optimisation, you start from an initial **_population_** of models. Typically, a model is randomly initialised, and several **_offspring_** are derived based on this initial model. In the case of DNN’s, you initialise a model (as you normally do), and you add small random vectors, sampled from a simple Gaussian distribution, to the parameters. This results in a cloud of models, which all reside somewhere on the optimisation surface. Note that this is the first important distinction with gradient descent. You start (and continue to work) with a population of models, instead of a single (point) model.
-
-1. Starting from this original population, the **_genetic optimisation cycles_** start.
-![](https://cdn-images-1.medium.com/max/800/1*KQIGKIZOKJudEf9x_sW5Kw.png)
-
-    - First, a fitness evaluation is performed. Fitness evaluation corresponds with checking where the models are in the optimisation surface and determining which of the models perform best (e.g. are the most fit).
-
-    - Next, a **_selection_** is performed based on the fitness evaluation. In evolution strategies, the (pseudo) offspring is reduced to a single model, weighted by the fitness evaluation. For DNN's the fitness is defined as the loss or the reward. 
-
-    - Next, **_reproduction and combination_** is performed. Based on the newly selected 'prime' model, a new set of offspring is derived.
-
-    - Typically, in genetic optimisation, **_mutation_** is also performed in order to improve the variety of the offspring. One example of mutation is to change how the different offspring is created (i.e. different noise levels for the different parameters).
-
-> The researchers at OpenAI and Uber are able to show that the 'gradient approximation' of evolution strategies leads to satisfying (but not necessarily new state-of-the-art) solutions in supervised learning scenario's. On the other hand they are able to show high performance of their methods in reinforcement learning scenario's (comparable to state-of-the-art in some domains).
-
-**P/S:** I believe a combination of neuroevolution and gradient descent methods will lead to a significant improvement in RL performance. One downside of neuroevolution is the massive amounts of compute power that are required in order to train these systems, which might limit the democratisation of these techniques.
-
-**Good source for READ?** [Welcoming the Era of Deep Neuroevolution](https://eng.uber.com/deep-neuroevolution/)
-
-## Day 4 - 2018/11/09: What is REINFORCEMENT LEARNING in Machine Learning?
-
-![](https://cdn-images-1.medium.com/max/800/1*c3pEt4pFk0Mx684DDVsW-w.png)
-
-**WHAT is Reinforcement Learning?** Reinforcement learning is an important type of Machine Learning where an agent learn how to behave in a environment by performing actions and seeing the results.
-
-**What is Reinforcement Learning PROCESS?** 
-[](https://cdn-images-1.medium.com/max/1000/1*aKYFRoEmmKkybqJOvLt2JQ.png)
-The Reinforcement Learning (RL) process can be modeled as a loop that works like this:
-1. Our Agent receives state S0 from the Environment (In our case we receive the first frame of our game (state) from Super Mario Bros (environment))
-1. Based on that state S0, agent takes an action A0 (our agent will move right)
-1. Environment transitions to a new state S1 (new frame)
-1. Environment gives some reward R1 to the agent (not dead: +1)
-
-This RL loop outputs a sequence of state, action and reward.
-
-The goal of the agent is to maximize the expected cumulative reward.
-
-**HOW MANY kinds of Reinforcement Learning approaches?** 
-There are 3 main kinds:
-1. Value-based: In value-based RL, the goal is to optimize the value function V(s). The value function is a function that tells us the maximum expected future reward the agent will get at each state.
-2. Policy-based: In policy-based RL, we want to directly optimize the policy function π(s) without using a value function.
-    There are 2 types of policy:
-    - Deterministic: a policy at a given state will always return the same action.
-    - Stochastic: output a distribution probability over actions.
-3. Model-based: In model-based RL, we model the environment. This means we create a model of the behavior of the environment.
-
-**What is DEEP REINFORCEMENT LEARNING?** Deep Reinforcement Learning introduces deep neural networks to solve Reinforcement Learning problems — hence the name “deep.”
-
-**LIST some Deep Reinforcement Learning methods:**
-- Deep Q Network (DQN)
-- State-Action-Reward-State-Action (SARSA)
-- Deep Deterministic Policy Gradient (DDPG)
-- NAF, A3C, ...
-...
-- Rainbow
-
-**_More reference at:_**
-
-[Introduction to Various Reinforcement Learning Algorithms. Part I (Q-Learning, SARSA, DQN, DDPG)](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287)
-
-[Deep Reinforcement Learning Series](https://medium.com/@jonathan_hui/rl-deep-reinforcement-learning-series-833319a95530)
-
-**Good source for READ?** [An introduction to Reinforcement Learning](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419)
-
-## 2018/11/10-11 is weekend => Rest => No update learning
-
-## Day 5 - 2018/11/12: XXX
-
-## 2018/11/17-18 is weekend => Rest => No update learning
-
-
-## 2018/11/24-25 is weekend => Rest => No update learning
-
-
-## 2018/12/01-02 is weekend => Rest => No update learning
+*Benchmark table of Point Cloud Classification*
+![](./figures/1_algorithm-benchmarks.PNG)
+[image source](http://blog.ruofeidu.com/summary-pointnet-pointnet-and-pu-net/)
