@@ -18,7 +18,7 @@ Each day i study a little about machine-learning/deep-learning and share what i 
 
 # Journey tracking
 
-## Day 1 - 2018/11/06: Point Cloud Classification-Segmentation algorithms
+## Day 1 - 2018/12/11: Point Cloud Classification-Segmentation algorithms
 
 > A point cloud is a set of data points in space. 
 Point clouds are generally produced by 3D scanners: LIDAR, Kinect, ...
