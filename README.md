@@ -35,3 +35,7 @@ Point clouds are generally produced by 3D scanners: LIDAR, Kinect, ...
 *Benchmark table of Point Cloud Classification*
 ![](./figures/1_algorithm-benchmarks.PNG)
 [image source](http://blog.ruofeidu.com/summary-pointnet-pointnet-and-pu-net/)
+
+## Day 2 - 2018/12/12: Train Network with Noise to Reduce Overfitting
+
+**Learning Stories** [Train Neural Network với Nhiễu để giảm Overfitting](https://medium.com/@minhnc.edu.tw/train-neural-network-v%E1%BB%9Bi-nhi%E1%BB%85u-%C4%91%E1%BB%83-gi%E1%BA%A3m-overfitting-dfb8984e9eeb)
