@@ -63,3 +63,6 @@ It is to use both labeled data and unlabeled data to train a classifier.
 
 **Learning Stories** [Pseudo-labelling: Một phương pháp học bán giám sát](https://medium.com/@minhnc.edu.tw/pseudo-labelling-m%E1%BB%99t-ph%C6%B0%C6%A1ng-ph%C3%A1p-h%E1%BB%8Dc-b%C3%A1n-gi%C3%A1m-s%C3%A1t-ac6f08b9e6d1)
 
+## Day 5 - 2018/12/15: Scalable Agent Alignment via Reward Modeling
+
+**Learning Stories** [Định hướng trợ thông qua mô hình hóa phần thưởng cho tương tác người-máy](https://medium.com/@minhnc.edu.tw/%C4%91%E1%BB%8Bnh-h%C6%B0%E1%BB%9Bng-tr%E1%BB%A3-th%C3%B4ng-qua-m%C3%B4-h%C3%ACnh-h%C3%B3a-ph%E1%BA%A7n-th%C6%B0%E1%BB%9Fng-cho-t%C6%B0%C6%A1ng-t%C3%A1c-ng%C6%B0%E1%BB%9Di-m%C3%A1y-25d4f139c3a0)
